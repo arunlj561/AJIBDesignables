@@ -2,15 +2,21 @@ PODS:
   - AJIBDesignables (0.1.0)
 
 DEPENDENCIES:
-  - AJIBDesignables (from `../`)
+  - AJIBDesignables (from `https://github.com/arunlj561/AJIBDesignables`, tag `1.0.0`)
 
 EXTERNAL SOURCES:
   AJIBDesignables:
-    :path: ../
+    :git: https://github.com/arunlj561/AJIBDesignables
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  AJIBDesignables:
+    :git: https://github.com/arunlj561/AJIBDesignables
+    :tag: 1.0.0
 
 SPEC CHECKSUMS:
-  AJIBDesignables: 9c975a33798974c99ed1a90f92b97347afca2fa0
+  AJIBDesignables: a2a92f16ff57c26fb0535ae05442c97258c84796
 
-PODFILE CHECKSUM: d64830d3192a9f8fc20b17405b7c0a17a5c0b3ad
+PODFILE CHECKSUM: a308053f8d1fb58b2eb93621a24844ffc4bdad65
 
 COCOAPODS: 1.2.0
