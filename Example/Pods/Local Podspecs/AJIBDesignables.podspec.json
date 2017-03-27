@@ -1,0 +1,22 @@
+{
+  "name": "AJIBDesignables",
+  "version": "0.1.0",
+  "summary": "A short description of AJIBDesignables.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/arunlj561/AJIBDesignables",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "arunlj561": "arunlj561@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/arunlj561/AJIBDesignables.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AJIBDesignables/Classes/**/*"
+}

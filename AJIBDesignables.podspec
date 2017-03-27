@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AJIBDesignables'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AJIBDesignables.'
+  s.summary          = 'A UIView Extension, for customising Views.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'A UIView Extension, for customising Views. UIView, UILabel, UITextView, UITextField, UIImageView containing property into storyboard, Corner radius, border width'
 
   s.homepage         = 'https://github.com/arunlj561/AJIBDesignables'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
