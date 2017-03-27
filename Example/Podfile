@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJIBDesignables_Example' do
+  pod 'AJIBDesignables', :path => '../'
+
+  target 'AJIBDesignables_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
