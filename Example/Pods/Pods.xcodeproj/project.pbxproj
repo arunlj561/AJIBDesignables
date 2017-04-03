@@ -8,15 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		01A5CA6516A82D1A525C4FA54B4B96F8 /* Pods-AJIBDesignables_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3877F1D27654317C0AAC0EB88487E09B /* Pods-AJIBDesignables_Example-dummy.m */; };
+		07D6148CC93F2D925275D530FAF666D6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F00D73AEB9C2DCFBF19170B8B45AB /* ReplaceMe.swift */; };
 		1773AAB6494667332CA46ADF11EB0DA1 /* Pods-AJIBDesignables_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A82D8CF5CB8CE56121659DDC85FFE4E /* Pods-AJIBDesignables_Tests-dummy.m */; };
 		20031522F13DF4F90E8D079B91A04A27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		44FC59E56CABAB1EDE27DEC0C3572424 /* AJIBDesignables-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F01612330C109E439652ED84215D9ED5 /* AJIBDesignables-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C26680EA85688760422DC5C968BF5C2 /* AJIBDesignables-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA581F9B7E0BA84E19F9A96EEA416877 /* AJIBDesignables-dummy.m */; };
 		6CFFB3B5F99C8C8CBDB71DBCEA8A7C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7DA11B9358DA748F9A02D22FFE85CEFF /* Pods-AJIBDesignables_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C59B2670EAFB3959920CEC9DF1A1CA8 /* Pods-AJIBDesignables_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FA454281E892D7E00464BF3 /* AJTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA454251E892D7E00464BF3 /* AJTextField.swift */; };
-		7FA454291E892D7E00464BF3 /* AJView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA454261E892D7E00464BF3 /* AJView.swift */; };
-		7FA4542A1E892D7E00464BF3 /* UIView+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA454271E892D7E00464BF3 /* UIView+Base.swift */; };
 		941D1D324A6A392F7324F6D6748BB14F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F9F04C4B6BF7C94C7D5851D135E83A87 /* Pods-AJIBDesignables_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DE488A14C670C33EAFCB86F3E626E8 /* Pods-AJIBDesignables_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -34,32 +32,30 @@
 /* Begin PBXFileReference section */
 		0D784F569055EF65D564202BCAD5E56D /* AJIBDesignables-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJIBDesignables-prefix.pch"; sourceTree = "<group>"; };
 		0E53299477A757374198AA5177D1A0B2 /* Pods-AJIBDesignables_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJIBDesignables_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		192F00D73AEB9C2DCFBF19170B8B45AB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AJIBDesignables/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1C59B2670EAFB3959920CEC9DF1A1CA8 /* Pods-AJIBDesignables_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJIBDesignables_Example-umbrella.h"; sourceTree = "<group>"; };
 		1F54515D7540F59798B4D250C8C003E6 /* Pods-AJIBDesignables_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJIBDesignables_Example-frameworks.sh"; sourceTree = "<group>"; };
-		24D0356B9254E857A44F4D48F4D9F6C1 /* AJIBDesignables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AJIBDesignables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D0356B9254E857A44F4D48F4D9F6C1 /* AJIBDesignables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJIBDesignables.framework; path = AJIBDesignables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		264AB328CF3FFBC4773CE6F69D5030BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29AA7AD533A205CB2C80679B5536F612 /* Pods-AJIBDesignables_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJIBDesignables_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3877F1D27654317C0AAC0EB88487E09B /* Pods-AJIBDesignables_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJIBDesignables_Example-dummy.m"; sourceTree = "<group>"; };
-		39738F83626D7B7AA48AAF94517E9BC4 /* Pods-AJIBDesignables_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AJIBDesignables_Tests.modulemap"; sourceTree = "<group>"; };
+		39738F83626D7B7AA48AAF94517E9BC4 /* Pods-AJIBDesignables_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AJIBDesignables_Tests.modulemap"; sourceTree = "<group>"; };
 		3A96BDC3BA645078BFE2C5CB2BC4BB97 /* Pods-AJIBDesignables_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJIBDesignables_Example-resources.sh"; sourceTree = "<group>"; };
 		4056DAD02B9933A2B9C645CBF0544FA0 /* Pods-AJIBDesignables_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJIBDesignables_Example.release.xcconfig"; sourceTree = "<group>"; };
-		521E500D03F19DFF86F60F1E0D123D81 /* Pods_AJIBDesignables_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJIBDesignables_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		521E500D03F19DFF86F60F1E0D123D81 /* Pods_AJIBDesignables_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJIBDesignables_Tests.framework; path = "Pods-AJIBDesignables_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5665451972F41FC1886A5B83DF64DF4A /* Pods-AJIBDesignables_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJIBDesignables_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59AD0B326FC033C56ACA021FE975A170 /* AJIBDesignables.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJIBDesignables.xcconfig; sourceTree = "<group>"; };
 		71A0494C4100AFD7750384A744DEE83A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FA454251E892D7E00464BF3 /* AJTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJTextField.swift; sourceTree = "<group>"; };
-		7FA454261E892D7E00464BF3 /* AJView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJView.swift; sourceTree = "<group>"; };
-		7FA454271E892D7E00464BF3 /* UIView+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Base.swift"; sourceTree = "<group>"; };
 		8C112B4A98A5C72EA879836295A0AE53 /* Pods-AJIBDesignables_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJIBDesignables_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A82D8CF5CB8CE56121659DDC85FFE4E /* Pods-AJIBDesignables_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJIBDesignables_Tests-dummy.m"; sourceTree = "<group>"; };
-		ACD2F465803A26A6A94FA80FD550837D /* AJIBDesignables.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AJIBDesignables.modulemap; sourceTree = "<group>"; };
+		ACD2F465803A26A6A94FA80FD550837D /* AJIBDesignables.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AJIBDesignables.modulemap; sourceTree = "<group>"; };
 		AF43B33EA132F36FDC3AC8F301EEEE02 /* Pods-AJIBDesignables_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJIBDesignables_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFB25E21DC2A0E6ECB051F17793BEDFA /* Pods-AJIBDesignables_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJIBDesignables_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B338BB747BE3F99FB22852F03EFC7BAD /* Pods-AJIBDesignables_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AJIBDesignables_Example.modulemap"; sourceTree = "<group>"; };
+		B338BB747BE3F99FB22852F03EFC7BAD /* Pods-AJIBDesignables_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AJIBDesignables_Example.modulemap"; sourceTree = "<group>"; };
 		B4CF43ABB9DABA5239E547422EE999A8 /* Pods-AJIBDesignables_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJIBDesignables_Tests-resources.sh"; sourceTree = "<group>"; };
 		BCC09771C1107151F575CB2BDF34474B /* Pods-AJIBDesignables_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJIBDesignables_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD1C3C909F0FFA67F64F0D7FC9114034 /* Pods_AJIBDesignables_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJIBDesignables_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1C3C909F0FFA67F64F0D7FC9114034 /* Pods_AJIBDesignables_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJIBDesignables_Example.framework; path = "Pods-AJIBDesignables_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFBD06F9C50529E1EB4DBC78F45E037 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E4A3362CDFCB44A4E165FACD356BD90E /* Pods-AJIBDesignables_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJIBDesignables_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -126,11 +122,10 @@
 		2F5D542B0051199EF6961823F580D4D1 /* AJIBDesignables */ = {
 			isa = PBXGroup;
 			children = (
-				7FA454251E892D7E00464BF3 /* AJTextField.swift */,
-				7FA454261E892D7E00464BF3 /* AJView.swift */,
-				7FA454271E892D7E00464BF3 /* UIView+Base.swift */,
+				192F00D73AEB9C2DCFBF19170B8B45AB /* ReplaceMe.swift */,
 				5EBC2AE565952BB77C32154308218BC0 /* Support Files */,
 			);
+			name = AJIBDesignables;
 			path = AJIBDesignables;
 			sourceTree = "<group>";
 		};
@@ -327,9 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C26680EA85688760422DC5C968BF5C2 /* AJIBDesignables-dummy.m in Sources */,
-				7FA454291E892D7E00464BF3 /* AJView.swift in Sources */,
-				7FA454281E892D7E00464BF3 /* AJTextField.swift in Sources */,
-				7FA4542A1E892D7E00464BF3 /* UIView+Base.swift in Sources */,
+				07D6148CC93F2D925275D530FAF666D6 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

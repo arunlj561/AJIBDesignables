@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7F5952161E92187F00C6FBF5 /* AJIBDesignables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5952151E92187F00C6FBF5 /* AJIBDesignables.framework */; };
 		DD3D7D6CFC055BD378AABE7D /* Pods_AJIBDesignables_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BEA15BE0A0328866F77479 /* Pods_AJIBDesignables_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,12 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CA49AD59BFD23B2FB67A260 /* AJIBDesignables.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AJIBDesignables.podspec; path = ../AJIBDesignables.podspec; sourceTree = "<group>"; };
-		31CFCD439EB0FA8C98C0CA25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0CA49AD59BFD23B2FB67A260 /* AJIBDesignables.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJIBDesignables.podspec; path = ../AJIBDesignables.podspec; sourceTree = "<group>"; };
+		31CFCD439EB0FA8C98C0CA25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		32275921E432C6B07B3B7A53 /* Pods-AJIBDesignables_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJIBDesignables_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJIBDesignables_Example/Pods-AJIBDesignables_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		342E1A285FB1B177DBA29BC1 /* Pods-AJIBDesignables_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJIBDesignables_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJIBDesignables_Tests/Pods-AJIBDesignables_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		38CBB5C734761EC40541EB6F /* Pods-AJIBDesignables_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJIBDesignables_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AJIBDesignables_Tests/Pods-AJIBDesignables_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5498ADCD2CBC52497825469B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5498ADCD2CBC52497825469B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AJIBDesignables_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJIBDesignables_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6CD9F6ABE9E0F20F566C8E51 /* Pods_AJIBDesignables_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJIBDesignables_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5952151E92187F00C6FBF5 /* AJIBDesignables.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AJIBDesignables.framework; path = "../../../Library/Developer/Xcode/DerivedData/AJIBDesignables-ghxmapqhmoiortaxhjnnfxnruyhm/Build/Products/Debug-iphonesimulator/AJIBDesignables/AJIBDesignables.framework"; sourceTree = "<group>"; };
 		91BEA15BE0A0328866F77479 /* Pods_AJIBDesignables_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJIBDesignables_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		996088ABA7F763B82B91C360 /* Pods-AJIBDesignables_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJIBDesignables_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AJIBDesignables_Example/Pods-AJIBDesignables_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5952161E92187F00C6FBF5 /* AJIBDesignables.framework in Frameworks */,
 				5AEE94B7DB2761E4B651C098 /* Pods_AJIBDesignables_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +145,7 @@
 		B0FC8777693E811EDD2ABE4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F5952151E92187F00C6FBF5 /* AJIBDesignables.framework */,
 				6CD9F6ABE9E0F20F566C8E51 /* Pods_AJIBDesignables_Example.framework */,
 				91BEA15BE0A0328866F77479 /* Pods_AJIBDesignables_Tests.framework */,
 			);
