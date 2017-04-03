@@ -23,6 +23,10 @@ class AJTextField: UITextField {
         super.init(coder: aDecoder)
         
     }
+    
+    convenience init() {
+        self.init(frame:CGRect.zero)
+    }
     override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return self.bounds.insetBy(dx: padding.x, dy: padding.y)

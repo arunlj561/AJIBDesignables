@@ -23,6 +23,9 @@ class AJView: UIView {
         super.init(coder: aDecoder)
         
     }
+    convenience init() {
+        self.init(frame:CGRect.zero)
+    }
     
     override func draw(_ rect: CGRect) {
         //2 - get the current context
