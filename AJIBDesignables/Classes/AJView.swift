@@ -23,6 +23,11 @@ class AJView: UIView {
         super.init(coder: aDecoder)
         
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
     convenience init() {
         self.init(frame:CGRect.zero)
     }

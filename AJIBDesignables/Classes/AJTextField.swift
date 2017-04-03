@@ -24,6 +24,10 @@ class AJTextField: UITextField {
         
     }
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
     convenience init() {
         self.init(frame:CGRect.zero)
     }
