@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'AJIBDesignables_Example' do
-pod 'AJIBDesignables', :git => 'https://github.com/arunlj561/AJIBDesignables', :tag => '1.0.0'
+pod 'AJIBDesignables', :git => 'https://github.com/arunlj561/AJIBDesignables'
   target 'AJIBDesignables_Tests' do
     inherit! :search_paths
 
