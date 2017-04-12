@@ -9,11 +9,10 @@
 import UIKit
 import AJIBDesignables
 
-
 class ViewController: UIViewController {
 
 //    @IBOutlet weak var customview : AJView?
-    @IBOutlet weak var textField: AJTextField?
+    @IBOutlet var textField: AJTextField?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

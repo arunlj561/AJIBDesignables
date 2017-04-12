@@ -9,22 +9,22 @@
 import UIKit
 
 @IBDesignable
-class AJView: UIView {
+public class AJView: UIView {
     @IBInspectable var startColor: UIColor = UIColor.clear
     @IBInspectable var endColor: UIColor = UIColor.clear
     
     
-    required override init(frame: CGRect) {
+    required override public init(frame: CGRect) {
         super.init(frame: frame)
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
     }
     
@@ -32,7 +32,7 @@ class AJView: UIView {
         self.init(frame:CGRect.zero)
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         //2 - get the current context
         let context = UIGraphicsGetCurrentContext()
         let colors = [startColor.cgColor, endColor.cgColor]
@@ -57,28 +57,4 @@ class AJView: UIView {
             options: CGGradientDrawingOptions.drawsAfterEndLocation)
         
     }
-    
-
-   
-    
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        self.updateView()
-//    }
-//    
-//    override func prepareForInterfaceBuilder() {
-//        super.prepareForInterfaceBuilder()
-//        self.updateView()
-//    }
-//    
-//    override func updateView() {
-////        self.layer.cornerRadius = cornerRadius
-//        
-//        self.layer.masksToBounds = cornerRadius > 0
-//        if isShadow == true{
-//            self.addShadow(cornerRadius, shadowColor: shadowColor!, shadowOffset: shadowOffset, shadowOpacity: shadowOpacity, shadowRadius: shadowRadius)
-//        }
-//        
-//        self.addBorder(borderWidth, borderColor: borderColor!, borderSide: borderSide)
-//    }
 }

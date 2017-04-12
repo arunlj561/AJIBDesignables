@@ -9,25 +9,29 @@
 import UIKit
 
 @IBDesignable
-class AJTextField: UITextField {
+public class AJTextField: UITextField {
 
     @IBInspectable var padding : CGPoint = CGPoint.zero
 
     
-    required override init(frame: CGRect) {
+    required override public init(frame: CGRect) {
         super.init(frame: frame)
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
+    }
+    
+    override public func awakeFromNib() {
+        super.awakeFromNib()
     }
     
     convenience init() {
         self.init(frame:CGRect.zero)
     }
-    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+    override public func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return self.bounds.insetBy(dx: padding.x, dy: padding.y)
         }else{
@@ -35,7 +39,7 @@ class AJTextField: UITextField {
         }
     }
     
-    override func textRect(forBounds bounds: CGRect) -> CGRect {
+    override public func textRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return self.bounds.insetBy(dx: padding.x, dy: padding.y)
         }else{
@@ -43,7 +47,7 @@ class AJTextField: UITextField {
         }
     }
     
-    override func borderRect(forBounds bounds: CGRect) -> CGRect {
+    override public func borderRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return self.bounds.insetBy(dx: padding.x, dy: padding.y)
         }else{
@@ -51,7 +55,7 @@ class AJTextField: UITextField {
         }
     }
     
-    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+    override public func editingRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return self.bounds.insetBy(dx: padding.x, dy: padding.y)
         }else{
@@ -59,7 +63,7 @@ class AJTextField: UITextField {
         }
     }
     
-    override func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
+    override public func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return self.bounds.insetBy(dx: padding.x, dy: padding.y)
         }else{

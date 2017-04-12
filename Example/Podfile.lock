@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AJIBDesignables:
-    :commit: df690f53ced0c9a5e5c3e662e79cd057220e46e2
+    :commit: 963864d2798c51ad34014bda0fe86457e36bb5e7
     :git: https://github.com/arunlj561/AJIBDesignables
 
 SPEC CHECKSUMS:

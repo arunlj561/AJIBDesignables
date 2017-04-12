@@ -9,25 +9,30 @@
 import UIKit
 
 @IBDesignable
-class AJView: UIView {
+public class AJView: UIView {
     @IBInspectable var startColor: UIColor = UIColor.clear
     @IBInspectable var endColor: UIColor = UIColor.clear
     
     
-    required override init(frame: CGRect) {
+    required override public init(frame: CGRect) {
         super.init(frame: frame)
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
     }
+    
+    override public func awakeFromNib() {
+        super.awakeFromNib()
+    }
+    
     convenience init() {
         self.init(frame:CGRect.zero)
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         //2 - get the current context
         let context = UIGraphicsGetCurrentContext()
         let colors = [startColor.cgColor, endColor.cgColor]
