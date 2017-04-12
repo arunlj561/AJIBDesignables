@@ -16,9 +16,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 AJIBDesignables is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod "AJIBDesignables"
-```
+pod 'AJIBDesignables', :git => 'https://github.com/arunlj561/AJIBDesignables'
+
+You can add Corner Radius, Border width, Border sides, Gradient to View, padding to TextField. 
 
 ## Author
 
