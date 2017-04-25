@@ -19,13 +19,13 @@ enum FontName :String {
 }
 
 public class AJFontExtension:NSObject{
-    static let sharedInstance:AJFontExtension = AJFontExtension()
+    static public let sharedInstance:AJFontExtension = AJFontExtension()
     
-    var normal : String?
-    var title : String?
-    var subtitle : String?
-    var descriptive : String?
-    var larger : String?
+    public var normal : String?
+    public var title : String?
+    public var subtitle : String?
+    public var descriptive : String?
+    public var larger : String?
     
     
     static func normal(_ size: CGFloat) -> UIFont {
@@ -66,6 +66,8 @@ public class AJFontExtension:NSObject{
     @IBInspectable var fontName: String{
         get {
             return "normal"
+            //            print("Fontname get: \(self.fontName)")
+            //            return self.fontName
         }
         set{
             print("Fontname set: \(self.fontName)")
