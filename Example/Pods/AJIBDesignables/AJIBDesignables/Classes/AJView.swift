@@ -57,28 +57,4 @@ public class AJView: UIView {
             options: CGGradientDrawingOptions.drawsAfterEndLocation)
         
     }
-    
-
-   
-    
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        self.updateView()
-//    }
-//    
-//    override func prepareForInterfaceBuilder() {
-//        super.prepareForInterfaceBuilder()
-//        self.updateView()
-//    }
-//    
-//    override func updateView() {
-////        self.layer.cornerRadius = cornerRadius
-//        
-//        self.layer.masksToBounds = cornerRadius > 0
-//        if isShadow == true{
-//            self.addShadow(cornerRadius, shadowColor: shadowColor!, shadowOffset: shadowOffset, shadowOpacity: shadowOpacity, shadowRadius: shadowRadius)
-//        }
-//        
-//        self.addBorder(borderWidth, borderColor: borderColor!, borderSide: borderSide)
-//    }
 }

@@ -1,6 +1,6 @@
 //
 //  AJTextField.swift
-//  IBInspectable
+//  AJIBDesignables
 //
 //  Created by Arun Jangid on 25/02/16.
 //  Copyright © 2016 Arun Jangid. All rights reserved.
@@ -14,16 +14,16 @@ public class AJTextField: UITextField {
     @IBInspectable var padding : CGPoint = CGPoint.zero
 
     
-    required override init(frame: CGRect) {
+    required public override init(frame: CGRect) {
         super.init(frame: frame)
         
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
     }
-    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+    override public func placeholderRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return getBoundsPadding()
         }else{
@@ -31,7 +31,7 @@ public class AJTextField: UITextField {
         }
     }
     
-    override func textRect(forBounds bounds: CGRect) -> CGRect {
+    override public func textRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return bounds.insetBy(dx: padding.x, dy: padding.y)
         }else{
@@ -39,7 +39,7 @@ public class AJTextField: UITextField {
         }
     }
     
-    override func borderRect(forBounds bounds: CGRect) -> CGRect {
+    override public func borderRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return getBoundsPadding()
         }else{
@@ -47,7 +47,7 @@ public class AJTextField: UITextField {
         }
     }
     
-    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+    override public func editingRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return getBoundsPadding()
         }else{
@@ -55,7 +55,7 @@ public class AJTextField: UITextField {
         }
     }
     
-    override func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
+    override public func clearButtonRect(forBounds bounds: CGRect) -> CGRect {
         if padding.equalTo(CGPoint.zero) == false{
             return getBoundsPadding()
         }else{

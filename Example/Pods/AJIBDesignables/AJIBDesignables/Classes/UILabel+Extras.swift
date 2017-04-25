@@ -1,6 +1,6 @@
 //
 //  UILabel+Extras.swift
-//  IBInspectable
+//  AJIBDesignables
 //
 //  Created by Arun Jangid on 4/25/17.
 //  Copyright © 2017 Arun Jangid. All rights reserved.
