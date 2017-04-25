@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class AJTextField: UITextField {
+public class AJTextField: UITextField {
 
     @IBInspectable var padding : CGPoint = CGPoint.zero
 
