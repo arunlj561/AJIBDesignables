@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        print(UIFont.fontNames(forFamilyName: "Helvetica Neue"))
+        AJFontExtension.sharedInstance.larger = "HelveticaNeue-Italic"
+        AJFontExtension.sharedInstance.normal = "HelveticaNeue-BoldItalic"
+        AJFontExtension.sharedInstance.title = "HelveticaNeue-Medium"
+        AJFontExtension.sharedInstance.subtitle = "HelveticaNeue"
+        AJFontExtension.sharedInstance.descriptive = "HelveticaNeue-Thin"
+        
         return true
     }
 

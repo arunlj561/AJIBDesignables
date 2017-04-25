@@ -66,12 +66,8 @@ public class AJFontExtension:NSObject{
     @IBInspectable var fontName: String{
         get {
             return "normal"
-            //            print("Fontname get: \(self.fontName)")
-            //            return self.fontName
         }
         set{
-            print("Fontname set: \(self.fontName)")
-            print(newValue)
             self.setup(newValue)
             
         }
