@@ -39,7 +39,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tCc-U5-KdY" customClass="AJTextField" customModule="AJIBDesignables">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="HelveticaNeue-BoldItalic" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tCc-U5-KdY" customClass="AJTextField" customModule="AJIBDesignables">
                                 <rect key="frame" x="16" y="208" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Fls-cN-aAy"/>
@@ -55,16 +55,17 @@
                                         <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="point" keyPath="padding">
-                                        <point key="value" x="10" y="10"/>
+                                        <point key="value" x="10" y="0.0"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="borderSide" value="bottom"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="normal"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter text here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtk-Nb-n6L">
-                                <rect key="frame" x="16" y="291" width="343" height="30"/>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="HelveticaNeue-Medium" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dtk-Nb-n6L">
+                                <rect key="frame" x="16" y="259" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4Xz-bz-LgI"/>
                                 </constraints>
@@ -79,10 +80,11 @@
                                         <color key="value" red="0.0" green="0.44705882349999998" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="borderSide" value="top"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="title"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter text here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cPx-OF-Dqp">
-                                <rect key="frame" x="16" y="329" width="343" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="HelveticaNeue" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cPx-OF-Dqp">
+                                <rect key="frame" x="16" y="297" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="r6j-EI-SSS"/>
                                 </constraints>
@@ -97,6 +99,7 @@
                                         <color key="value" red="0.0" green="0.44705882349999998" blue="0.73333333329999995" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="borderSide" value="bottom"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="subtitle"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewx-fl-UPC">
@@ -107,7 +110,7 @@
                                     <constraint firstAttribute="height" constant="40" id="gRc-NA-w7d"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="+">
+                                <state key="normal" title="A">
                                     <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96056109940000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -195,13 +198,13 @@
                             <constraint firstAttribute="trailing" secondItem="BKC-s7-upq" secondAttribute="trailing" constant="16" id="Fzt-sc-PG1"/>
                             <constraint firstItem="tCc-U5-KdY" firstAttribute="top" secondItem="SZu-iR-XSg" secondAttribute="bottom" constant="8" id="LKK-mx-tjX"/>
                             <constraint firstItem="UhM-9i-QJC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="MTt-mf-tue"/>
-                            <constraint firstItem="dtk-Nb-n6L" firstAttribute="top" secondItem="tCc-U5-KdY" secondAttribute="bottom" constant="53" id="OH5-OS-HzV"/>
+                            <constraint firstItem="dtk-Nb-n6L" firstAttribute="top" secondItem="tCc-U5-KdY" secondAttribute="bottom" constant="21" id="OH5-OS-HzV"/>
                             <constraint firstAttribute="trailing" secondItem="UhM-9i-QJC" secondAttribute="trailing" constant="16" id="PPF-hz-gQq"/>
                             <constraint firstItem="BKC-s7-upq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Rqc-XY-qN4"/>
                             <constraint firstItem="csZ-i4-n1e" firstAttribute="top" secondItem="UhM-9i-QJC" secondAttribute="bottom" constant="8" id="auK-cu-EKA"/>
                             <constraint firstItem="6Su-F8-mki" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="b2y-zD-rHm"/>
                             <constraint firstItem="cPx-OF-Dqp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="b4z-I8-ejE"/>
-                            <constraint firstItem="srQ-os-IPu" firstAttribute="top" secondItem="cPx-OF-Dqp" secondAttribute="bottom" constant="8" id="eBW-Tq-Xc1"/>
+                            <constraint firstItem="srQ-os-IPu" firstAttribute="top" secondItem="cPx-OF-Dqp" secondAttribute="bottom" constant="40" id="eBW-Tq-Xc1"/>
                             <constraint firstAttribute="trailing" secondItem="6Su-F8-mki" secondAttribute="trailing" constant="16" id="eF1-r6-GzK"/>
                             <constraint firstItem="tCc-U5-KdY" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="eYp-L2-o5L"/>
                             <constraint firstAttribute="trailing" secondItem="Ewx-fl-UPC" secondAttribute="trailing" constant="42" id="fHA-K7-DRm"/>

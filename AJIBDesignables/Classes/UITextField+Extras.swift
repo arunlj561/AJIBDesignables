@@ -1,20 +1,18 @@
 //
-//  UILabel+Extras.swift
+//  UITextField+Extras.swift
 //  AJIBDesignables
 //
-//  Created by Arun Jangid on 4/25/17.
+//  Created by Arun Jangid on 4/27/17.
 //  Copyright © 2017 Arun Jangid. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-
-@IBDesignable extension UILabel {
-    
+extension UITextField {
     @IBInspectable var fontSize: CGFloat {
         get {
-            return self.font.pointSize
+            return (self.font?.pointSize)!
         }
         set{
             
@@ -26,9 +24,11 @@ import UIKit
             return "normal"
         }
         set{
-            
-            self.font = AJFontExtension.sharedInstance.setup(newValue, fontSize: fontSize)
+           self.font = AJFontExtension.sharedInstance.setup(newValue, fontSize: fontSize)
             
         }
     }
+    
+    
+    
 }
