@@ -9,6 +9,24 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+1. Set The default fonts in the whole app in AppDelegate -  	AJFontExtension.sharedInstance.larger = "HelveticaNeue-Italic"
+	AJFontExtension.sharedInstance.normal = "HelveticaNeue-BoldItalic"        AJFontExtension.sharedInstance.title = "HelveticaNeue-Medium"
+        AJFontExtension.sharedInstance.subtitle = "HelveticaNeue"
+        AJFontExtension.sharedInstance.descriptive = "HelveticaNeue-Thin"
+        
+2. In Storyboard Inspector You will see the fontName property Set it to whatever font you want from the above like -title for "HelveticaNeue-Medium"
+<img width="261" alt="screen shot 2017-04-27 at 6 01 52 pm" src="https://cloud.githubusercontent.com/assets/13132856/25483901/6658464e-2b75-11e7-99fb-21481247a33c.png">
+
+3. So you can set font in this way throught the app for UILabel, UITextView, UITextField.
+![simulator screen shot apr 27 2017 5 47 42 pm](https://cloud.githubusercontent.com/assets/13132856/25483946/93871622-2b75-11e7-9bd0-c999b7b86d46.png)
+4. One benefit of this will be when you have to change the Font thoughout the app, just change in AppDelegate. Font changed throughout the App with no manually setting. 
+5. Just hard part to remember which value is set for what.
+6. Suggestion and improvements are welcomed.
+ 
+
+
+
+
 ## Requirements
 
 ## Installation
